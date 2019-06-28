@@ -1,0 +1,1333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900|Cinzel:400,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  background: #ffe4e1 no-repeat fixed;
+  background-size: cover;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+}
+
+::-moz-selection {
+  color: #ffe4e1;
+  background: #660019;
+}
+
+::selection {
+  color: #ffe4e1;
+  background: #660019;
+}
+
+section.top,
+section.bottom {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+section.top > img,
+section.bottom > img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+
+section.top {
+  top: 0;
+}
+
+section.bottom {
+  bottom: 0;
+}
+
+.scroll {
+  position: absolute;
+  width: 50vw;
+  height: 70vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.scroll div.blur {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.scroll div.blur.top {
+  top: 0;
+}
+
+.scroll div.blur.bottom {
+  bottom: 0;
+}
+
+.scroll div.blur div {
+  width: 100%;
+  height: 1px;
+}
+
+.scroll div.blur.top div.itm_1 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_2 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_3 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_4 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_5 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_6 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_7 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_8 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_9 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_10 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_11 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_12 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_13 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_14 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_15 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_16 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_17 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_18 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_19 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_20 {
+  background: mistyrose;
+}
+
+.scroll div.blur.top div.itm_21 {
+  background: rgba(255, 228, 225, 0.9875);
+}
+
+.scroll div.blur.top div.itm_22 {
+  background: rgba(255, 228, 225, 0.975);
+}
+
+.scroll div.blur.top div.itm_23 {
+  background: rgba(255, 228, 225, 0.9625);
+}
+
+.scroll div.blur.top div.itm_24 {
+  background: rgba(255, 228, 225, 0.95);
+}
+
+.scroll div.blur.top div.itm_25 {
+  background: rgba(255, 228, 225, 0.9375);
+}
+
+.scroll div.blur.top div.itm_26 {
+  background: rgba(255, 228, 225, 0.925);
+}
+
+.scroll div.blur.top div.itm_27 {
+  background: rgba(255, 228, 225, 0.9125);
+}
+
+.scroll div.blur.top div.itm_28 {
+  background: rgba(255, 228, 225, 0.9);
+}
+
+.scroll div.blur.top div.itm_29 {
+  background: rgba(255, 228, 225, 0.8875);
+}
+
+.scroll div.blur.top div.itm_30 {
+  background: rgba(255, 228, 225, 0.875);
+}
+
+.scroll div.blur.top div.itm_31 {
+  background: rgba(255, 228, 225, 0.8625);
+}
+
+.scroll div.blur.top div.itm_32 {
+  background: rgba(255, 228, 225, 0.85);
+}
+
+.scroll div.blur.top div.itm_33 {
+  background: rgba(255, 228, 225, 0.8375);
+}
+
+.scroll div.blur.top div.itm_34 {
+  background: rgba(255, 228, 225, 0.825);
+}
+
+.scroll div.blur.top div.itm_35 {
+  background: rgba(255, 228, 225, 0.8125);
+}
+
+.scroll div.blur.top div.itm_36 {
+  background: rgba(255, 228, 225, 0.8);
+}
+
+.scroll div.blur.top div.itm_37 {
+  background: rgba(255, 228, 225, 0.7875);
+}
+
+.scroll div.blur.top div.itm_38 {
+  background: rgba(255, 228, 225, 0.775);
+}
+
+.scroll div.blur.top div.itm_39 {
+  background: rgba(255, 228, 225, 0.7625);
+}
+
+.scroll div.blur.top div.itm_40 {
+  background: rgba(255, 228, 225, 0.75);
+}
+
+.scroll div.blur.top div.itm_41 {
+  background: rgba(255, 228, 225, 0.7375);
+}
+
+.scroll div.blur.top div.itm_42 {
+  background: rgba(255, 228, 225, 0.725);
+}
+
+.scroll div.blur.top div.itm_43 {
+  background: rgba(255, 228, 225, 0.7125);
+}
+
+.scroll div.blur.top div.itm_44 {
+  background: rgba(255, 228, 225, 0.7);
+}
+
+.scroll div.blur.top div.itm_45 {
+  background: rgba(255, 228, 225, 0.6875);
+}
+
+.scroll div.blur.top div.itm_46 {
+  background: rgba(255, 228, 225, 0.675);
+}
+
+.scroll div.blur.top div.itm_47 {
+  background: rgba(255, 228, 225, 0.6625);
+}
+
+.scroll div.blur.top div.itm_48 {
+  background: rgba(255, 228, 225, 0.65);
+}
+
+.scroll div.blur.top div.itm_49 {
+  background: rgba(255, 228, 225, 0.6375);
+}
+
+.scroll div.blur.top div.itm_50 {
+  background: rgba(255, 228, 225, 0.625);
+}
+
+.scroll div.blur.top div.itm_51 {
+  background: rgba(255, 228, 225, 0.6125);
+}
+
+.scroll div.blur.top div.itm_52 {
+  background: rgba(255, 228, 225, 0.6);
+}
+
+.scroll div.blur.top div.itm_53 {
+  background: rgba(255, 228, 225, 0.5875);
+}
+
+.scroll div.blur.top div.itm_54 {
+  background: rgba(255, 228, 225, 0.575);
+}
+
+.scroll div.blur.top div.itm_55 {
+  background: rgba(255, 228, 225, 0.5625);
+}
+
+.scroll div.blur.top div.itm_56 {
+  background: rgba(255, 228, 225, 0.55);
+}
+
+.scroll div.blur.top div.itm_57 {
+  background: rgba(255, 228, 225, 0.5375);
+}
+
+.scroll div.blur.top div.itm_58 {
+  background: rgba(255, 228, 225, 0.525);
+}
+
+.scroll div.blur.top div.itm_59 {
+  background: rgba(255, 228, 225, 0.5125);
+}
+
+.scroll div.blur.top div.itm_60 {
+  background: rgba(255, 228, 225, 0.5);
+}
+
+.scroll div.blur.top div.itm_61 {
+  background: rgba(255, 228, 225, 0.4875);
+}
+
+.scroll div.blur.top div.itm_62 {
+  background: rgba(255, 228, 225, 0.475);
+}
+
+.scroll div.blur.top div.itm_63 {
+  background: rgba(255, 228, 225, 0.4625);
+}
+
+.scroll div.blur.top div.itm_64 {
+  background: rgba(255, 228, 225, 0.45);
+}
+
+.scroll div.blur.top div.itm_65 {
+  background: rgba(255, 228, 225, 0.4375);
+}
+
+.scroll div.blur.top div.itm_66 {
+  background: rgba(255, 228, 225, 0.425);
+}
+
+.scroll div.blur.top div.itm_67 {
+  background: rgba(255, 228, 225, 0.4125);
+}
+
+.scroll div.blur.top div.itm_68 {
+  background: rgba(255, 228, 225, 0.4);
+}
+
+.scroll div.blur.top div.itm_69 {
+  background: rgba(255, 228, 225, 0.3875);
+}
+
+.scroll div.blur.top div.itm_70 {
+  background: rgba(255, 228, 225, 0.375);
+}
+
+.scroll div.blur.top div.itm_71 {
+  background: rgba(255, 228, 225, 0.3625);
+}
+
+.scroll div.blur.top div.itm_72 {
+  background: rgba(255, 228, 225, 0.35);
+}
+
+.scroll div.blur.top div.itm_73 {
+  background: rgba(255, 228, 225, 0.3375);
+}
+
+.scroll div.blur.top div.itm_74 {
+  background: rgba(255, 228, 225, 0.325);
+}
+
+.scroll div.blur.top div.itm_75 {
+  background: rgba(255, 228, 225, 0.3125);
+}
+
+.scroll div.blur.top div.itm_76 {
+  background: rgba(255, 228, 225, 0.3);
+}
+
+.scroll div.blur.top div.itm_77 {
+  background: rgba(255, 228, 225, 0.2875);
+}
+
+.scroll div.blur.top div.itm_78 {
+  background: rgba(255, 228, 225, 0.275);
+}
+
+.scroll div.blur.top div.itm_79 {
+  background: rgba(255, 228, 225, 0.2625);
+}
+
+.scroll div.blur.top div.itm_80 {
+  background: rgba(255, 228, 225, 0.25);
+}
+
+.scroll div.blur.top div.itm_81 {
+  background: rgba(255, 228, 225, 0.2375);
+}
+
+.scroll div.blur.top div.itm_82 {
+  background: rgba(255, 228, 225, 0.225);
+}
+
+.scroll div.blur.top div.itm_83 {
+  background: rgba(255, 228, 225, 0.2125);
+}
+
+.scroll div.blur.top div.itm_84 {
+  background: rgba(255, 228, 225, 0.2);
+}
+
+.scroll div.blur.top div.itm_85 {
+  background: rgba(255, 228, 225, 0.1875);
+}
+
+.scroll div.blur.top div.itm_86 {
+  background: rgba(255, 228, 225, 0.175);
+}
+
+.scroll div.blur.top div.itm_87 {
+  background: rgba(255, 228, 225, 0.1625);
+}
+
+.scroll div.blur.top div.itm_88 {
+  background: rgba(255, 228, 225, 0.15);
+}
+
+.scroll div.blur.top div.itm_89 {
+  background: rgba(255, 228, 225, 0.1375);
+}
+
+.scroll div.blur.top div.itm_90 {
+  background: rgba(255, 228, 225, 0.125);
+}
+
+.scroll div.blur.top div.itm_91 {
+  background: rgba(255, 228, 225, 0.1125);
+}
+
+.scroll div.blur.top div.itm_92 {
+  background: rgba(255, 228, 225, 0.1);
+}
+
+.scroll div.blur.top div.itm_93 {
+  background: rgba(255, 228, 225, 0.0875);
+}
+
+.scroll div.blur.top div.itm_94 {
+  background: rgba(255, 228, 225, 0.075);
+}
+
+.scroll div.blur.top div.itm_95 {
+  background: rgba(255, 228, 225, 0.0625);
+}
+
+.scroll div.blur.top div.itm_96 {
+  background: rgba(255, 228, 225, 0.05);
+}
+
+.scroll div.blur.top div.itm_97 {
+  background: rgba(255, 228, 225, 0.0375);
+}
+
+.scroll div.blur.top div.itm_98 {
+  background: rgba(255, 228, 225, 0.025);
+}
+
+.scroll div.blur.top div.itm_99 {
+  background: rgba(255, 228, 225, 0.0125);
+}
+
+.scroll div.blur.top div.itm_100 {
+  background: rgba(255, 228, 225, 0);
+}
+
+.scroll div.blur.bottom div.itm_1 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_2 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_3 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_4 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_5 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_6 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_7 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_8 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_9 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_10 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_11 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_12 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_13 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_14 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_15 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_16 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_17 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_18 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_19 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_20 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_21 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_22 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_23 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_24 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_25 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_26 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_27 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_28 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_29 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_30 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_31 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_32 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_33 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_34 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_35 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_36 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_37 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_38 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_39 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_40 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_41 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_42 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_43 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_44 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_45 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_46 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_47 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_48 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_49 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_50 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_51 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_52 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_53 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_54 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_55 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_56 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_57 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_58 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_59 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_60 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_61 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_62 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_63 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_64 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_65 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_66 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_67 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_68 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_69 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_70 {
+  background: mistyrose;
+}
+
+.scroll div.blur.bottom div.itm_71 {
+  background: rgba(255, 228, 225, 0.9875);
+}
+
+.scroll div.blur.bottom div.itm_72 {
+  background: rgba(255, 228, 225, 0.975);
+}
+
+.scroll div.blur.bottom div.itm_73 {
+  background: rgba(255, 228, 225, 0.9625);
+}
+
+.scroll div.blur.bottom div.itm_74 {
+  background: rgba(255, 228, 225, 0.95);
+}
+
+.scroll div.blur.bottom div.itm_75 {
+  background: rgba(255, 228, 225, 0.9375);
+}
+
+.scroll div.blur.bottom div.itm_76 {
+  background: rgba(255, 228, 225, 0.925);
+}
+
+.scroll div.blur.bottom div.itm_77 {
+  background: rgba(255, 228, 225, 0.9125);
+}
+
+.scroll div.blur.bottom div.itm_78 {
+  background: rgba(255, 228, 225, 0.9);
+}
+
+.scroll div.blur.bottom div.itm_79 {
+  background: rgba(255, 228, 225, 0.8875);
+}
+
+.scroll div.blur.bottom div.itm_80 {
+  background: rgba(255, 228, 225, 0.875);
+}
+
+.scroll div.blur.bottom div.itm_81 {
+  background: rgba(255, 228, 225, 0.8625);
+}
+
+.scroll div.blur.bottom div.itm_82 {
+  background: rgba(255, 228, 225, 0.85);
+}
+
+.scroll div.blur.bottom div.itm_83 {
+  background: rgba(255, 228, 225, 0.8375);
+}
+
+.scroll div.blur.bottom div.itm_84 {
+  background: rgba(255, 228, 225, 0.825);
+}
+
+.scroll div.blur.bottom div.itm_85 {
+  background: rgba(255, 228, 225, 0.8125);
+}
+
+.scroll div.blur.bottom div.itm_86 {
+  background: rgba(255, 228, 225, 0.8);
+}
+
+.scroll div.blur.bottom div.itm_87 {
+  background: rgba(255, 228, 225, 0.7875);
+}
+
+.scroll div.blur.bottom div.itm_88 {
+  background: rgba(255, 228, 225, 0.775);
+}
+
+.scroll div.blur.bottom div.itm_89 {
+  background: rgba(255, 228, 225, 0.7625);
+}
+
+.scroll div.blur.bottom div.itm_90 {
+  background: rgba(255, 228, 225, 0.75);
+}
+
+.scroll div.blur.bottom div.itm_91 {
+  background: rgba(255, 228, 225, 0.7375);
+}
+
+.scroll div.blur.bottom div.itm_92 {
+  background: rgba(255, 228, 225, 0.725);
+}
+
+.scroll div.blur.bottom div.itm_93 {
+  background: rgba(255, 228, 225, 0.7125);
+}
+
+.scroll div.blur.bottom div.itm_94 {
+  background: rgba(255, 228, 225, 0.7);
+}
+
+.scroll div.blur.bottom div.itm_95 {
+  background: rgba(255, 228, 225, 0.6875);
+}
+
+.scroll div.blur.bottom div.itm_96 {
+  background: rgba(255, 228, 225, 0.675);
+}
+
+.scroll div.blur.bottom div.itm_97 {
+  background: rgba(255, 228, 225, 0.6625);
+}
+
+.scroll div.blur.bottom div.itm_98 {
+  background: rgba(255, 228, 225, 0.65);
+}
+
+.scroll div.blur.bottom div.itm_99 {
+  background: rgba(255, 228, 225, 0.6375);
+}
+
+.scroll div.blur.bottom div.itm_100 {
+  background: rgba(255, 228, 225, 0.625);
+}
+
+.scroll div.blur.bottom div.itm_101 {
+  background: rgba(255, 228, 225, 0.6125);
+}
+
+.scroll div.blur.bottom div.itm_102 {
+  background: rgba(255, 228, 225, 0.6);
+}
+
+.scroll div.blur.bottom div.itm_103 {
+  background: rgba(255, 228, 225, 0.5875);
+}
+
+.scroll div.blur.bottom div.itm_104 {
+  background: rgba(255, 228, 225, 0.575);
+}
+
+.scroll div.blur.bottom div.itm_105 {
+  background: rgba(255, 228, 225, 0.5625);
+}
+
+.scroll div.blur.bottom div.itm_106 {
+  background: rgba(255, 228, 225, 0.55);
+}
+
+.scroll div.blur.bottom div.itm_107 {
+  background: rgba(255, 228, 225, 0.5375);
+}
+
+.scroll div.blur.bottom div.itm_108 {
+  background: rgba(255, 228, 225, 0.525);
+}
+
+.scroll div.blur.bottom div.itm_109 {
+  background: rgba(255, 228, 225, 0.5125);
+}
+
+.scroll div.blur.bottom div.itm_110 {
+  background: rgba(255, 228, 225, 0.5);
+}
+
+.scroll div.blur.bottom div.itm_111 {
+  background: rgba(255, 228, 225, 0.4875);
+}
+
+.scroll div.blur.bottom div.itm_112 {
+  background: rgba(255, 228, 225, 0.475);
+}
+
+.scroll div.blur.bottom div.itm_113 {
+  background: rgba(255, 228, 225, 0.4625);
+}
+
+.scroll div.blur.bottom div.itm_114 {
+  background: rgba(255, 228, 225, 0.45);
+}
+
+.scroll div.blur.bottom div.itm_115 {
+  background: rgba(255, 228, 225, 0.4375);
+}
+
+.scroll div.blur.bottom div.itm_116 {
+  background: rgba(255, 228, 225, 0.425);
+}
+
+.scroll div.blur.bottom div.itm_117 {
+  background: rgba(255, 228, 225, 0.4125);
+}
+
+.scroll div.blur.bottom div.itm_118 {
+  background: rgba(255, 228, 225, 0.4);
+}
+
+.scroll div.blur.bottom div.itm_119 {
+  background: rgba(255, 228, 225, 0.3875);
+}
+
+.scroll div.blur.bottom div.itm_120 {
+  background: rgba(255, 228, 225, 0.375);
+}
+
+.scroll div.blur.bottom div.itm_121 {
+  background: rgba(255, 228, 225, 0.3625);
+}
+
+.scroll div.blur.bottom div.itm_122 {
+  background: rgba(255, 228, 225, 0.35);
+}
+
+.scroll div.blur.bottom div.itm_123 {
+  background: rgba(255, 228, 225, 0.3375);
+}
+
+.scroll div.blur.bottom div.itm_124 {
+  background: rgba(255, 228, 225, 0.325);
+}
+
+.scroll div.blur.bottom div.itm_125 {
+  background: rgba(255, 228, 225, 0.3125);
+}
+
+.scroll div.blur.bottom div.itm_126 {
+  background: rgba(255, 228, 225, 0.3);
+}
+
+.scroll div.blur.bottom div.itm_127 {
+  background: rgba(255, 228, 225, 0.2875);
+}
+
+.scroll div.blur.bottom div.itm_128 {
+  background: rgba(255, 228, 225, 0.275);
+}
+
+.scroll div.blur.bottom div.itm_129 {
+  background: rgba(255, 228, 225, 0.2625);
+}
+
+.scroll div.blur.bottom div.itm_130 {
+  background: rgba(255, 228, 225, 0.25);
+}
+
+.scroll div.blur.bottom div.itm_131 {
+  background: rgba(255, 228, 225, 0.2375);
+}
+
+.scroll div.blur.bottom div.itm_132 {
+  background: rgba(255, 228, 225, 0.225);
+}
+
+.scroll div.blur.bottom div.itm_133 {
+  background: rgba(255, 228, 225, 0.2125);
+}
+
+.scroll div.blur.bottom div.itm_134 {
+  background: rgba(255, 228, 225, 0.2);
+}
+
+.scroll div.blur.bottom div.itm_135 {
+  background: rgba(255, 228, 225, 0.1875);
+}
+
+.scroll div.blur.bottom div.itm_136 {
+  background: rgba(255, 228, 225, 0.175);
+}
+
+.scroll div.blur.bottom div.itm_137 {
+  background: rgba(255, 228, 225, 0.1625);
+}
+
+.scroll div.blur.bottom div.itm_138 {
+  background: rgba(255, 228, 225, 0.15);
+}
+
+.scroll div.blur.bottom div.itm_139 {
+  background: rgba(255, 228, 225, 0.1375);
+}
+
+.scroll div.blur.bottom div.itm_140 {
+  background: rgba(255, 228, 225, 0.125);
+}
+
+.scroll div.blur.bottom div.itm_141 {
+  background: rgba(255, 228, 225, 0.1125);
+}
+
+.scroll div.blur.bottom div.itm_142 {
+  background: rgba(255, 228, 225, 0.1);
+}
+
+.scroll div.blur.bottom div.itm_143 {
+  background: rgba(255, 228, 225, 0.0875);
+}
+
+.scroll div.blur.bottom div.itm_144 {
+  background: rgba(255, 228, 225, 0.075);
+}
+
+.scroll div.blur.bottom div.itm_145 {
+  background: rgba(255, 228, 225, 0.0625);
+}
+
+.scroll div.blur.bottom div.itm_146 {
+  background: rgba(255, 228, 225, 0.05);
+}
+
+.scroll div.blur.bottom div.itm_147 {
+  background: rgba(255, 228, 225, 0.0375);
+}
+
+.scroll div.blur.bottom div.itm_148 {
+  background: rgba(255, 228, 225, 0.025);
+}
+
+.scroll div.blur.bottom div.itm_149 {
+  background: rgba(255, 228, 225, 0.0125);
+}
+
+.scroll div.blur.bottom div.itm_150 {
+  background: rgba(255, 228, 225, 0);
+}
+
+.scroll section.text {
+  position: absolute;
+  width: 50vw;
+  height: 70vh;
+  color: #080448;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: auto;
+}
+
+.scroll section.text .padding {
+  padding: 5em;
+}
+
+.scroll section.text h1 {
+  font-family: "Cinzel Decorative", cursive !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+  color: #660019;
+}
+
+.scroll section.text h2 {
+  font-family: "Cinzel Decorative", cursive !important;
+  text-align: center;
+  padding-top: 2em;
+  font-size: 2em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.scroll section.text h3 {
+  font-size: 1.8em;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  padding: 1em 0;
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  color: #660019;
+}
+
+.scroll section.text h4 {
+  font-size: 1.5em;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  color: #660019;
+}
+
+.scroll section.text p {
+  font-size: 1.2em;
+  font-family: "Cinzel", serif;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+
+.scroll section.text img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.scroll section.text a {
+  color: #080448;
+  padding: 2px 10px;
+  line-height: 3em;
+  border: 1px solid #080448;
+  background: linear-gradient(to top, #080448 1px, transparent 1px);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition-property: color, background-size, border;
+  transition-property: color, background-size, border;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.scroll section.text a:hover {
+  border: 1px solid #080448;
+  background: #080448;
+  color: #ffe4e1;
+}
+
+.scroll section.text hr {
+  width: 50%;
+  border: 0px solid transparent;
+  border-top: 1px solid black;
+}
+
+.scroll section.text u {
+  text-decoration: none;
+  border-bottom: solid 1px #660019;
+  padding-bottom: 2px;
+}
+/*# sourceMappingURL=main.css.map */

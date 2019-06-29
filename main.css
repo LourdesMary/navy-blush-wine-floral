@@ -159,7 +159,10 @@ button {
 
 body {
   background: #ffe4e1 no-repeat fixed;
-  background: url("img/blush-bg.jpg") no-repeat fixed;
+  background: url("img/blush-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
   font-family: "Courier New", Courier, monospace;
